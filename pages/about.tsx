@@ -8,7 +8,7 @@ export interface AboutProps {
 export default function AboutPage({ post }: AboutProps) {
   return (
     <div>
-      <h1>about page</h1>
+      <h1>about page </h1>
       <p>
         {post.map((i: any) => (
           <li key={i.id}>{i.title}</li>
