@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Visit [learn-nextjs-gilt-mu.vercel.app](https://learn-nextjs-gilt-mu.vercel.app/)
 
+## Phím tắt tạo 1 component: tsdrpfc
+
+## Link API
+Base URL: https://js-post-api.herokuapp.com/api
+- login
+- post
 ## Getting Started
 
 First, run the development server:
