@@ -30,8 +30,6 @@ export default function handler(
     const handleLoginResponse: ProxyResCallback = (proxyRes, req, res) => {
       let body = '';
       proxyRes.on('data', (chunk) => {
-        console.log('chunk', JSON.parse(chunk));
-
         body += chunk;
       });
 
