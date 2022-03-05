@@ -10,6 +10,12 @@
     "open": "yarn build && yarn start"
   },
   "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/material": "latest",
     "axios": "^0.26.0",
     "cookies": "^0.8.0",
     "http-proxy": "^1.18.1",

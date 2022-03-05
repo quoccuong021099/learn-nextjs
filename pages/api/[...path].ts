@@ -29,11 +29,13 @@ export default function handler(
 
     //  don't send cookies to API server
     req.headers.cookie = '';
+
     proxy.web(req, res, {
       target: process.env.API_URL,
       changeOrigin: true,
       selfHandleResponse: false,
     });
+    
     proxy.once('proxyRes', () => resolve(true));
   });
 }

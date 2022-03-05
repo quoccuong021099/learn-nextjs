@@ -1,5 +1,5 @@
-import { useAuth } from '@/hooks/use-auth';
-import { LayoutProps } from '@/models/index';
+import { useAuth } from 'hooks';
+import { LayoutProps } from 'models';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';

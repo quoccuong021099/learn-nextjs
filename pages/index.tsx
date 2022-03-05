@@ -1,8 +1,8 @@
-import MainLayout from '@/componenst/layout/main'
-import Head from 'next/head'
-import Link from 'next/link'
-import { NextPageWithLayout } from '@/models/index'
-import styles from '../styles/Home.module.css'
+import MainLayout from 'components/layout/main';
+import { NextPageWithLayout } from 'models';
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 const Home: NextPageWithLayout = () => {
   return (
@@ -22,7 +22,7 @@ const Home: NextPageWithLayout = () => {
         </h1>
       </main>
     </div>
-  )
-}
-Home.Layout = MainLayout
-export default Home
+  );
+};
+Home.Layout = MainLayout;
+export default Home;
